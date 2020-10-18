@@ -116,6 +116,27 @@ select {
     background: rgb(182, 182, 182);
 }
 
+.tempo {
+    margin: 3rem;
+    width: 30%;
+}
+
+.tempo-slider {
+    background-color: rgb(88, 88, 88);
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 0.2rem;
+    position: relative;
+    width: 100%;
+    -webkit-appearance: none;
+}
+.tempo p {
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: center;
+}
+
 @keyframes playTrack {
     from {
         transform: scale(1);
